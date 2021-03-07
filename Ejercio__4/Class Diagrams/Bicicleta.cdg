@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Bicicleta">
+  <ClassDiagramComponents>
+    <Class name="Bicicleta" package="" visibility="public" xPosition="385.0" yPosition="113.0">
+      <Fields>
+        <Field name="velocidadActual" type="int" visibility="private"/>
+        <Field name="platoActual" type="int" visibility="private"/>
+        <Field name="pinonActual" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getvelocidadl" returnType="int" visibility="public"/>
+        <Method name="getvelocidad" returnType="void" visibility="public">
+          <Argument type="int" name="a"/>
+        </Method>
+        <Method name="getplato" returnType="int" visibility="public"/>
+        <Method name="getplato" returnType="void" visibility="public">
+          <Argument type="int" name="b"/>
+        </Method>
+        <Method name="getpinon" returnType="int" visibility="public"/>
+        <Method name="getpinon" returnType="void" visibility="public">
+          <Argument type="int" name="c"/>
+        </Method>
+        <Method name="acelerar" returnType="int" visibility="public"/>
+        <Method name="frenar" returnType="int" visibility="public"/>
+        <Method name="cambiarPlato" returnType="int" visibility="public">
+          <Argument type="int" name="Plato"/>
+        </Method>
+        <Method name="cambiarPinon" returnType="int" visibility="public">
+          <Argument type="int" name="Pinon"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

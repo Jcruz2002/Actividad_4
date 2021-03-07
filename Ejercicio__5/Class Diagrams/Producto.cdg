@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Producto">
+  <ClassDiagramComponents>
+    <Class name="Producto" package="" visibility="public" xPosition="404.0" yPosition="98.0">
+      <Fields>
+        <Field name="codigo" type="long" visibility="private"/>
+        <Field name="Nombre" type="string" visibility="private"/>
+        <Field name="precioCompra" type="double" visibility="private"/>
+        <Field name="porcentajeUtilidad" type="doble" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getCodigo" returnType="long" visibility="public"/>
+        <Method name="getCodigo" returnType="void" visibility="public">
+          <Argument type="long" name="a"/>
+        </Method>
+        <Method name="getNombre" returnType="string" visibility="public"/>
+        <Method name="getNombre" returnType="void" visibility="public">
+          <Argument type="string" name="b"/>
+        </Method>
+        <Method name="getPrecioCompra" returnType="double" visibility="public"/>
+        <Method name="getPrecioCompra" returnType="void" visibility="public">
+          <Argument type="double" name="c"/>
+        </Method>
+        <Method name="getPorcentajeUtilidad" returnType="double" visibility="public"/>
+        <Method name="getPorcentajeUtilidad" returnType="void" visibility="public">
+          <Argument type="double" name="d"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

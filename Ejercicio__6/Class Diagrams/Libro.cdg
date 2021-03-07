@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Libro">
+  <ClassDiagramComponents>
+    <Class name="Libro" package="" visibility="public" xPosition="432.0" yPosition="82.0">
+      <Fields>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="primerNom" type="String" visibility="private"/>
+        <Field name="segundoNom" type="String" visibility="private"/>
+        <Field name="isbn" type="String" visibility="private"/>
+        <Field name="paginas" type="int" visibility="private"/>
+        <Field name="edicion" type="int" visibility="private"/>
+        <Field name="editorial" type="String" visibility="private"/>
+        <Field name="ciudad" type="String" visibility="private"/>
+        <Field name="pais" type="String" visibility="private"/>
+        <Field name="fecha" type="Stirng" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="gettitulo" returnType="String" visibility="public"/>
+        <Method name="getPrimerNom" returnType="String" visibility="public"/>
+        <Method name="getSegundoNom" returnType="String" visibility="public"/>
+        <Method name="getISBN" returnType="String" visibility="public"/>
+        <Method name="getPaginas" returnType="int" visibility="public"/>
+        <Method name="getEdicion" returnType="int" visibility="public"/>
+        <Method name="getEditorial" returnType="String" visibility="public"/>
+        <Method name="getCiudad" returnType="String" visibility="public"/>
+        <Method name="getPais" returnType="String" visibility="public"/>
+        <Method name="getFecha" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

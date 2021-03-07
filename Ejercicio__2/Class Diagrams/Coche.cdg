@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Coche">
+  <ClassDiagramComponents>
+    <Class name="Coche" package="" visibility="public" xPosition="414.0" yPosition="43.0">
+      <Fields>
+        <Field name="color" type="string" visibility="private"/>
+        <Field name="marca" type="string" visibility="private"/>
+        <Field name="modelo" type="string" visibility="private"/>
+        <Field name="N_caballos" type="int" visibility="private"/>
+        <Field name="n_Puertas" type="int" visibility="private"/>
+        <Field name="matricula" type="string" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getColor" returnType="string" visibility="public"/>
+        <Method name="getColor" returnType="void" visibility="public">
+          <Argument type="string" name="a"/>
+        </Method>
+        <Method name="getMarca" returnType="string" visibility="public"/>
+        <Method name="getMarca" returnType="void" visibility="public">
+          <Argument type="string" name="b"/>
+        </Method>
+        <Method name="modelo" returnType="string" visibility="public"/>
+        <Method name="getModelo" returnType="void" visibility="public">
+          <Argument type="string" name="c"/>
+        </Method>
+        <Method name="getCaballos" returnType="int" visibility="public"/>
+        <Method name="getCaballos" returnType="void" visibility="public">
+          <Argument type="int" name="d"/>
+        </Method>
+        <Method name="getPuertas" returnType="int" visibility="public"/>
+        <Method name="getPuertas" returnType="void" visibility="public">
+          <Argument type="int" name="e"/>
+        </Method>
+        <Method name="getMatricula" returnType="string" visibility="public"/>
+        <Method name="getMatricula" returnType="void" visibility="public"/>
+        <Method name="ConstruirCarro" returnType="string" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
